@@ -1,0 +1,3 @@
+s=int(input("entre the value of side"))
+print("area of square",s*s)
+print("perimeter of suqare",4*s)
