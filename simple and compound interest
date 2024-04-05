@@ -1,0 +1,7 @@
+p=int(input("enter the value of p"))
+t=int(input("enter the value of t"))
+r=int(input("enter the value of r"))
+s=(p*t*r)/100
+c=p*(1+r)^t-p
+print("simple interest",s)
+print("compound interest",c)
