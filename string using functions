@@ -1,0 +1,10 @@
+def pr():
+    n=str(input("enter"))
+    m="python is"
+    print(m,n[0:])
+pr()
+
+    
+    
+ 
+
