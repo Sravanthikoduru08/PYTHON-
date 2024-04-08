@@ -1,0 +1,26 @@
+a="good morning"
+b="-"
+print(a.upper())
+print(a.lower())
+print(a.capitalize())
+print(a.title())
+print(a.swapcase())
+print(a.split())
+print(a.center(19,"*"))
+print(a.count("good"))
+print(a.replace("good","better"))
+print(b.join(a))
+a="goodMorning"
+print(a.islower())
+print(a.isupper())
+print(a.isalpha())
+print(a.isalnum())
+print(a.isspace())
+print(a.istitle())
+print(a.startswith('g'))
+print(a.endswith('g'))
+print(a.find("Good"))
+print(len(a))
+print(min(a))
+print(max(a))
+
