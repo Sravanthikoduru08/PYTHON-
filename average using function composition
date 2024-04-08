@@ -1,0 +1,10 @@
+def add(a,b,c,d,e):
+    f=a+b+c+d+e
+    return f
+def avg(f,n):
+   g=f//n
+   return g
+f=add(20,30,40,50,60)
+g=avg(f,5)
+print(f)
+print(g)
