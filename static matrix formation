@@ -1,0 +1,12 @@
+rows = 2
+columns = 2
+
+matrix = [[0 for i in range(columns)] for j in range(rows)]
+matrix[0][0] = 9
+matrix[0][1] = 8
+matrix[1][0] = 6
+matrix[1][1] = 7
+for row in matrix:
+    for element in row:
+        print(element, end=" ")
+    print()
