@@ -1,0 +1,17 @@
+def max_profit(prices):
+    if not prices:
+        return 0
+    
+    n = len(prices)
+    max_profit = 0
+    
+    for i in range(1, n):
+        profit = prices[i] - prices[i-1]
+        if profit > 0:
+            max_profit += profit
+    
+    return max_profit
+
+
+prices = [10, 22, 5, 75, 65, 80]
+print("Maximum profit:", max_profit(prices))
