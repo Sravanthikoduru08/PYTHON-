@@ -1,0 +1,17 @@
+A = [[12,2],
+
+    [4,5]]
+B = [[5,8],
+
+    [6,7]]
+
+result = [[0,0],
+
+         [0,0]]
+for x in range(len(A)):
+    for y in range(len(A[0])):
+        result[x][y] = A[x][y] - B[x][y]
+
+for r in result:
+
+   print(r)
