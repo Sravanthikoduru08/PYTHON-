@@ -1,0 +1,2 @@
+n=(input("enter the number"))
+print("mirrored number:",n[::-1])
