@@ -1,0 +1,8 @@
+a=(1,2,13,43,5)
+print(a.index(5))
+print(a.count(13))
+print(len(a))
+print(min(a))
+print(max(a))
+del(a)
+
