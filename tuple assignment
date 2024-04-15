@@ -1,0 +1,10 @@
+a=29
+b=51
+temp = a
+a = b
+b = temp
+print("value after swapping is",a,b)
+(a,b,c)=(1,2,3)
+print(a)
+print(b)
+print(c)
