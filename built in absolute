@@ -1,0 +1,4 @@
+x=-90
+y=23
+print(abs(x))
+print(abs(y))
